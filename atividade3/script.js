@@ -7,7 +7,7 @@ function calcular (){
     if (resultado <= 0 ){
       alert ("Parabéns! você está aprovado por nota!!!");
     } else {
-        alert("Você precisa de " + resultado + " de nota!");
+        alert("Você precisa de " + resultado + " de nota para passar!");
     }
 
 }
