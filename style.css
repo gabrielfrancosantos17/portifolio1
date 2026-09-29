@@ -1,9 +1,25 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(95, 129, 57);
 }
 main { 
-    background-color: rgb(166, 151, 180);
     text-align: center;
     margin: auto;
 
+}
+a p{
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px auto;
+    transition: 1s all;
+}
+a p:hover{
+ background-color:rgb(112, 255, 124);
+ transform: scale(1.2);
+}
+a p :active {
+    border-style: solid;
 }
